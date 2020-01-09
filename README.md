@@ -6,6 +6,8 @@ The starter application included has some signficant issues that make it not wor
 
 ### Requirements
 
+- Create a fork of this repository. All code changes should be madee to your fork.
+
 - As a user (here just a fake one) should be able to login, with my extremely secure password, 'password'. An email address should also be required, but any should work.
 
 - Once logged in, a user should be able to navigate to the `Profile` page, and update my name so that it appears on the home page instead of `Test User`
@@ -50,7 +52,7 @@ Please, answer the following questions in this readme, underneath the question
 
 ## Submissions
 
-When submitting, please send a link to download the files to `matt@brace.ai`, or alternatively a link to a public repository containing your work.
+When submitting, please send a link to your fork of this repository to `matt@brace.ai`.
 
 ### Questions
 
