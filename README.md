@@ -6,7 +6,7 @@ The starter application included has some signficant issues that make it not wor
 
 ### Requirements
 
-- Create a fork of this repository. All code changes should be madee to your fork.
+- Create a fork of this repository. All code changes should be made to your fork. If you'd rather not have a public fork, that's cool too. In that case please provide a zip of your solution, including the local .git folder, so that we can view your commit history!
 
 - As a user (here just a fake one) should be able to login, with my extremely secure password, 'password'. An email address should also be required, but any should work.
 
