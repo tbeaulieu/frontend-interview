@@ -40,7 +40,7 @@ Styles should be added using only styled-components.
 
 ### Time
 
-You should not take more than 3 hours of time on this, even if you feel incomplete, that's fine. Your time is important, too! We'd rather see what you can accomplish in that timeframe, rather than what you can do in unlimited time
+You should not take more than 4 hours of time on this, even if you feel incomplete, that's fine. Your time is important, too! We'd rather see what you can accomplish in that timeframe, rather than what you can do in unlimited time
 
 ## Question
 
