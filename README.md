@@ -52,8 +52,8 @@ Please, answer the following questions in this readme, underneath the question
 
 ## Submissions
 
-When submitting, please send a link to your fork of this repository to `matt@brace.ai`.
+When submitting, please send a link to your fork of this repository or a zip of your completed project to the link provided when you received this repo
 
 ### Questions
 
-Please, feel free to reach out directly with any questions you have about this project, or Brace in general, to `matt@brace.ai`.
+Please, feel free to reach out directly with any questions you have about this project, let us know
