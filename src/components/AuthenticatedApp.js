@@ -1,10 +1,12 @@
 import React from "react";
-import { Route, Switch } from "react-router-dom";
+import { Route, Switch, useParams } from "react-router-dom";
 import Navigation from "./Navigation";
 import Home from "./Home";
 import Profile from "./Profile";
+import Repositories from './Repositories';
 
 const AuthenticatedApplication = () => {
+  const { id } = useParams();
   return (
     <div>
       <Navigation />
@@ -14,7 +16,15 @@ const AuthenticatedApplication = () => {
           <Profile />
         </Route>
 
-        <Route path="/">
+        <Route exact path="/repositories/">
+          <Repositories />
+        </Route>
+
+        <Route path="/repositories/:id">
+          <Repositories />
+        </Route>
+
+        <Route exact path="/">
           <Home />
         </Route>
 

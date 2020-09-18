@@ -48,7 +48,15 @@ Please, answer the following questions in this readme, underneath the question
 
 1. Name a newer feature of javascript that you believe is extra useful, and discuss how you have used it in this project, or how you would use it if needed.
 
+Probably Async/Await. I'd probably use it if there was any more future requests or multiple streams of data coming in from apis.
+
 2. What are 3 things you think `React` does very poorly? What tools do this better, if any?
+
+Primarily useEffect is poorly documented and can get one into an infinite loop very easily, versus old school lifecycle methods. Better documentation would be helpful from their team
+to people to avoid this in the future.
+
+State management is better with hooks, but the overall large state management of MobX/Redux still feels clunky. Best practices such as using carefully and top down container wise would be the best policy.
+
 
 ## Submissions
 

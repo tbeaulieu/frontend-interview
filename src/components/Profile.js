@@ -6,7 +6,7 @@ import { useUserContext } from "../contexts/user";
  */
 const Profile = () => {
   const user = useUserContext();
-
+  
   return (
     <div>
       <h1>Edit your profile</h1>
@@ -15,6 +15,7 @@ const Profile = () => {
           e.preventDefault();
         }}
       >
+        <label>Email: </label>
         <input
           name="email"
           value={user.email}
@@ -22,9 +23,10 @@ const Profile = () => {
             user.email = e.target.value;
           }}
         />
+        <label>User Name: </label>
         <input
           name="name"
-          value={user.name}
+          defaultValue={user.name}
           onChange={e => {
             user.name = e.target.value;
           }}

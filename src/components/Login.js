@@ -2,7 +2,7 @@ import * as React from "react";
 import { useSetUserContext } from "../contexts/user";
 
 const Login = () => {
-  const [user, setUser] = React.useState({
+  const [user] = React.useState({
     email: "",
     password: ""
   });
@@ -35,6 +35,7 @@ const Login = () => {
           }
         }}
       >
+        <label>Email</label>        
         <input
           name="email"
           type="email"
@@ -43,6 +44,7 @@ const Login = () => {
             user.email = event.target.value;
           }}  
         />
+        <label>Password:</label>
         <input
           name="password"
           type="password"
